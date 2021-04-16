@@ -1,4 +1,4 @@
-3.7.1. Constant-0
+4.1.1. Constant-0
 
 	from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit
 	from numpy import pi
@@ -16,7 +16,7 @@
 	circuit.measure(qreg_q[0], creg_c[0])
 	circuit.measure(qreg_q[1], creg_c[1])
 
-3.7.2. Constant-1
+4.1.2. Constant-1
 
 	from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit
 	from numpy import pi
@@ -35,7 +35,7 @@
 	circuit.measure(qreg_q[0], creg_c[0])
 	circuit.measure(qreg_q[1], creg_c[1])
 
-3.7.3. Identity
+4.1.3. Identity
 
 	from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit
 	from numpy import pi
@@ -55,7 +55,7 @@
 	circuit.measure(qreg_q[1], creg_c[1])
 
 
-3.7.4. Negation
+4.1.4. Negation
 
 	from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit
 	from numpy import pi
